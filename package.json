@@ -2,8 +2,8 @@
   "name": "fullstack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "setup": "npm i && cd client && npm i",
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon index.js --watch server --watch index.js",
     "client": "node start-client.js"
