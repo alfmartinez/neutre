@@ -5,7 +5,7 @@ const reducers = (state = '', action) => {
       return message;
     default:
     return state;
-  };
+  }
 }
 
 export default reducers;
